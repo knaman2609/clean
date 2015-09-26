@@ -4,10 +4,10 @@
     <title>Clean</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/clean/</link>
-    <atom:link href="http://yourdomain.com/clean/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Sep 2015 00:36:55 +0530</pubDate>
-    <lastBuildDate>Sun, 27 Sep 2015 00:36:55 +0530</lastBuildDate>
+    <link>http://yourdomain.com/clean//</link>
+    <atom:link href="http://yourdomain.com/clean//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Sep 2015 00:40:17 +0530</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2015 00:40:17 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,8 +45,8 @@
 
 </description>
         <pubDate>Sun, 27 Sep 2015 00:21:59 +0530</pubDate>
-        <link>http://yourdomain.com/clean/jekyll/update/2015/09/27/clean-theme.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/clean/jekyll/update/2015/09/27/clean-theme.html</guid>
+        <link>http://yourdomain.com/clean//jekyll/update/2015/09/27/clean-theme.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/clean//jekyll/update/2015/09/27/clean-theme.html</guid>
         
         
         <category>jekyll</category>
@@ -60,8 +60,8 @@
         <description>&lt;p&gt;Hello Jekyll&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Sep 2015 00:00:00 +0530</pubDate>
-        <link>http://yourdomain.com/clean/jekyll/update/2015/09/26/hello.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/clean/jekyll/update/2015/09/26/hello.html</guid>
+        <link>http://yourdomain.com/clean//jekyll/update/2015/09/26/hello.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/clean//jekyll/update/2015/09/26/hello.html</guid>
         
         
         <category>jekyll</category>
