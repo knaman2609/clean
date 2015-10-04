@@ -10,10 +10,28 @@
       <div class='hours'></div>
       <div class='seconds'></div>
       <div class='minutes'></div>
+      <div class="site-name">
+        <div class="site-name__inner">
+          <div class="name">{{ site.title }}</div>
+          <div class="desc">{{site.description}}</div>
+          <div class="btn">Blog</div>
+        </div>
+      </div>
     </div>
 
-    {% include header.html %}
+    <header class="site-header">
 
+      <div class="wrapper">
+
+        <nav class="site-nav">
+            {% for page in site.pages %}
+              {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              {% endif %}
+            {% endfor %}
+        </nav>
+      </div>
+    </header>
     <div class="page-content">
         {{ content }}
     </div>

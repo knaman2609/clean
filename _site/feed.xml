@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clean</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml.
 </description>
     <link>http://yourdomain.com/clean/</link>
     <atom:link href="http://yourdomain.com/clean/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Oct 2015 09:09:28 +0530</pubDate>
-    <lastBuildDate>Sun, 04 Oct 2015 09:09:28 +0530</lastBuildDate>
+    <pubDate>Sun, 04 Oct 2015 10:02:51 +0530</pubDate>
+    <lastBuildDate>Sun, 04 Oct 2015 10:02:51 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>

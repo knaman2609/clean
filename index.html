@@ -38,4 +38,12 @@ layout: home
     hours = ("0" + hours).slice(-2);
     hoursSel.innerHTML = hours;
   }, 1000);
+
+  var btnSel = document.querySelector('.btn');
+  var header = document.getElementsByTagName('header')[0];
+
+  btnSel.addEventListener("click", function() {
+    header.scrollIntoView();
+  }, false);
+
 </script>
