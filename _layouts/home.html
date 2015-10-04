@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="cover">
+      <div class="clock"></div>
+      <div class='hours'></div>
+      <div class='seconds'></div>
+      <div class='minutes'></div>
+    </div>
+
+    {% include header.html %}
+
+    <div class="page-content">
+        {{ content }}
+    </div>
+  </body>
+
+</html>
