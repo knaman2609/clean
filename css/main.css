@@ -7,6 +7,9 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
+html, body {
+  height: 100%; }
+
 /**
  * Basic styling
  */
@@ -307,6 +310,55 @@ code {
 
 .home .post-meta {
   text-align: right; }
+
+.cover {
+  color: #f1f1f1;
+  height: 100%;
+  background: url("http://lakto.org/assets/img/cover.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 10px; }
+
+/**
+ * clock css
+ */
+.seconds {
+  width: 40px;
+  height: 40px;
+  top: 280px;
+  left: 280px;
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18pt;
+  border-radius: 50%;
+  background-color: rgba(81, 81, 81, 0.2); }
+
+.minutes {
+  width: 100px;
+  height: 100px;
+  top: 250px;
+  left: 250px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font-size: 52pt;
+  border-radius: 50%;
+  background-color: rgba(126, 126, 126, 0.7); }
+
+.hours {
+  width: 300px;
+  height: 300px;
+  top: 150px;
+  left: 150px;
+  position: absolute;
+  text-align: center;
+  line-height: 280px;
+  font-size: 133pt;
+  border-radius: 50%;
+  background-color: rgba(181, 181, 181, 0.4); }
 
 /**
  * Syntax highlighting styles
