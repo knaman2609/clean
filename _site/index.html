@@ -73,6 +73,7 @@
     
   </ul>
 </div>
+    </div>
 
 <script>
   setInterval(function() {
@@ -94,7 +95,13 @@
 
     var hours = new Date().getHours();
     var hoursSel = document.querySelector(".hours");
+
+    if (hours > 12) {
+      hours = hours - 12;
+    }
+
     hours = ("0" + hours).slice(-2);
+
     hoursSel.innerHTML = hours;
   }, 1000);
 
@@ -107,7 +114,6 @@
 
 </script>
 
-    </div>
   </body>
 
 </html>
