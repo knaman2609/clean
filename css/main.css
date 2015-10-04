@@ -149,41 +149,11 @@ code {
 .site-nav {
   float: right;
   line-height: 56px; }
-  .site-nav .menu-icon {
-    display: none; }
   .site-nav .page-link {
     color: #444; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px; } }
+  .site-nav .page-link {
+    display: block;
+    padding: 5px 10px; }
 
 /**
  * Page content
@@ -303,7 +273,7 @@ code {
 
 .home a:hover {
   background: #fafafd;
-  outline: 1px solid #dedede; }
+  outline: 1px solid #C3D5E4; }
 
 .home a::before {
   width: 0; }
@@ -318,8 +288,7 @@ code {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  margin-bottom: 10px; }
+  background-size: cover; }
 
 /**
  * clock css
@@ -359,6 +328,37 @@ code {
   font-size: 133pt;
   border-radius: 50%;
   background-color: rgba(181, 181, 181, 0.4); }
+
+.site-name {
+  max-width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  text-align: right;
+  position: relative;
+  height: 100%; }
+
+.site-name__inner {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  right: 0;
+  width: 400px; }
+
+.site-name__inner .name {
+  font-size: 100px;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.site-name__inner .desc {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif; }
+
+.site-name__inner .btn {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  display: inline-block;
+  margin-top: 100px;
+  border-radius: 3px;
+  cursor: pointer; }
 
 /**
  * Syntax highlighting styles
