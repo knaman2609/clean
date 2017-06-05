@@ -7,7 +7,7 @@ layout: home
       <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
-            <div id="naman" class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
           </a>
       </li>
     {% endfor %}
