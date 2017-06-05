@@ -1,4 +1,4 @@
-### Clean Theme
+## Clean Theme
 
 ![Alt text](screen.png)
 
