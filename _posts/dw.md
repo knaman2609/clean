@@ -1,5 +1,6 @@
-yout: post
-title:  "hihihihi""
+layout: post
+title:  "hihihihi"
+date : 2017-12-12
 categories: jekyll update
 ---
 
