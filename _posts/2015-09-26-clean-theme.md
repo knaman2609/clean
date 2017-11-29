@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Clean Jekyll theme"
+title:  "강동진"
 date:   2015-09-26 18:51:59
 categories: jekyll update
 ---
