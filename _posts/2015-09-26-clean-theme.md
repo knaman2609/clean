@@ -27,7 +27,7 @@ func main() {
 {% endhighlight %}
 
 ##List 
-- Do this
+- 대웅 == 머웅 바보
 - Do that
 - Bla Bla Bla
 - Go to Sleep
