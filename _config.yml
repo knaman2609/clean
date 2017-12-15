@@ -2,7 +2,6 @@
 title: Opensource Project by 강동진
 email: djkang98@naver.com
 description: 
-wow
 > # this means to ignore newlines until "baseurl:"
 baseurl: / 
 url: http://Kdj9384.github.io # the base hostname & protocol for your site
